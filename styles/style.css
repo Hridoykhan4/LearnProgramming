@@ -88,3 +88,72 @@ header{
     font-size: 20px;
     padding: 0.3rem 1.1rem;
 }
+
+
+/* main section start */
+main{
+    background-color: #2D236A;
+    padding-top: 20px;
+}
+
+#main-section{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 3.2rem 0;
+}
+
+#latest-video-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-video-text{
+    font-size: 1.5rem;
+    color: #04AA6D;
+    font-weight: bold;
+}
+
+.latest-page{
+    color: #04AA6D;
+}
+
+.latest-page span{
+    color: black;
+    background-color: rgb(194, 134, 134);
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #80805b;
+    margin: 0 0.8rem;
+    cursor: pointer;
+}
+
+.single-items-parent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4rem;
+    margin-top: 1.6rem;
+}
+
+.single-items{
+    height: 250px;
+    border: 3px solid gray;
+}
+
+.single-items img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.single-items div{
+    display: flex; 
+    justify-content: space-between;
+    color: white;
+    margin-top: 0.6rem;
+    transition: 0.7s;
+   
+}
+
+.single-items:hover{
+    transform: scale(1.1);
+}
