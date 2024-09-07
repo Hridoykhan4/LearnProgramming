@@ -17,6 +17,7 @@ nav{
     justify-content: space-between;
     background-color: #1A1244;
     padding: 10px 100px;
+    border-bottom: 4px solid #401E63;
 }
 
 nav ul {
@@ -46,4 +47,44 @@ nav ul li a:hover{
     background-color: black;
     color: red;
     border-radius: 5px;
+}
+
+
+/* Banner Part starts */
+
+header{
+    background-image: url('../images/website\ banner.jpg');
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.searchbox-icon-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbox-icon-parent i{
+    color: red;
+    background-color: green;
+    height: 2.5rem;
+    font-size: 1.3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+.searchbox-icon-parent input{
+    width: 30rem;
+    height: 2.3rem;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0.3rem 1.1rem;
 }
