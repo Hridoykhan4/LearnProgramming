@@ -1,190 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Personal Blog</title>
 
     <!-- CDN link Font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <link rel="stylesheet" href="styles/style.css">
-    
-</head>
-<body>
-   
-  <nav>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css">
+  </head>
+  <body>
+     <nav>
+      <div>
+        <h2>Programming Shikhbo</h2>
+      </div>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Blogs</a></li>
+        <li><a href="">Videos</a></li>
+        <li><a href="">Contact US</a></li>
+        <li><a href="">About Us</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="searchbox-icon-parent">
+        <input type="search" placeholder="search" />
         <div>
-            <h2>Programming Shikhbo</h2>
+          <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Blogs</a></li>
-            <li><a href="">Videos</a></li>
-            <li><a href="">Contact US</a></li>
-            <li><a href="">About Us</a></li>
-        </ul>
-  </nav>
-
-
-  <header>
-        <div class="searchbox-icon-parent">
-            <input type="search" placeholder="search">
-            <div>
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-        </div>
-  </header>
-
+      </div>
+    </header>
 
    <main>
-        <div id="main-section">
-            <div id="latest-video-parent">
-                <div class="latest-video-text">
-                    <h3>Latest Video</h3>
-                </div>
+      <div id="main-section">
+        <div id="latest-video-parent">
+          <div class="latest-video-text">
+            <h3>Latest Video</h3>
+          </div>
 
-                <div class="latest-page">
-                    <h4>Page: <span> 1 </span> of <span> 10 </span></h4>
-                </div>
-            </div>
-
-
-            <!-- <div class="single-items-parent">
-
-                <div class="single-items">
-                    <img src="images/01.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/02.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/03.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/04.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/07.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/08.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/09.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/10.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/13.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/14.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/15.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/16.jpg" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/menu-1.png" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/menu-2.png" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/menu-3.png" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-                <div class="single-items">
-                    <img src="images/menu-4.png" alt="">
-                    <div>
-                        <h5> 24 Oct 2024 </h5>
-                        <h5> 10,240 views </h5>
-                    </div>
-                </div>
-
-            </div> -->
-
-
-            <div id="previous-next-parent">
-                <h3><a href="#"> <i class="fas fa-chevron-left"></i> Previous </a></h3>
-                <div>
-                    <a  href="#">1</a>
-                    <a href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                </div>
-                <h3><a href=""> Next <i class="fas fa-chevron-right"></i></a></h3>
-            </div>
-
+          <div class="latest-page">
+            <h4>Page: <span> 1 </span> of <span> 10 </span></h4>
+          </div>
         </div>
-   </main>
 
+        <div class="single-items-parent">
+          <div class="single-items">
+            <img src="images/01.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/02.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/03.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/04.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/07.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/08.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/09.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/10.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/13.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/14.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/15.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/16.jpg" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/menu-1.png" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/menu-2.png" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/menu-3.png" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+          <div class="single-items">
+            <img src="images/menu-4.png" alt="" />
+            <div>
+              <h5>24 Oct 2024</h5>
+              <h5>10,240 views</h5>
+            </div>
+          </div>
+        </div>
 
-   <footer>
+        <div id="previous-next-parent">
+          <h3>
+            <a href="#"> <i class="fas fa-chevron-left"></i> Previous </a>
+          </h3>
+          <div>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+          </div>
+          <h3>
+            <a href=""> Next <i class="fas fa-chevron-right"></i></a>
+          </h3>
+        </div>
+      </div>
+    </main> 
 
-   </footer>
-</body>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-firstItem">
+          <h3>Programming Shikhbo</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae, mollitia adipisci fugit quod ut esse eaque corrupti
+            distinctio quo nesciunt consectetur vel nemo deserunt delectus illum
+            eligendi enim id laborum.
+          </p>
+          <p>Copyright &copy; 2024 || All Rights Reserved</p>
+        </div>
+
+        <div class="footer-secondItem">
+          <h3>Our Links</h3>
+          <p><a href="#">Youtube</a></p>
+          <p><a href="#">Support</a></p>
+          <p><a href="#">Our Company</a></p>
+          <p><a href="#">Contact</a></p>
+        </div>
+
+        <div class="footer-third-item">
+          <div>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+
+          <p>Terms of the <br />Privacy Policy</p>
+          <p class="design">Designed By Programming Shikhbo</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
