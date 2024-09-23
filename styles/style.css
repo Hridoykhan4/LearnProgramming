@@ -9,13 +9,14 @@
 html,
 body {
   font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   background-color: #1a1244;
-  padding: 10px 100px;
+  padding: 10px 4rem;
   border-bottom: 4px solid #401e63;
   position: sticky;
   top: 0;
@@ -35,8 +36,8 @@ nav ul li a {
   color: white;
   font-weight: bold;
   font-size: 20px;
-  padding: 10px 20px;
   transition: 0.5s;
+
 }
 
 nav div {
@@ -77,7 +78,7 @@ header {
   align-items: center;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: -10px;
+  margin-left: -15px;
 }
 
 .searchbox-icon-parent input {
@@ -103,6 +104,8 @@ main {
 
 #latest-video-parent {
   display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
   justify-content: space-between;
 }
 
@@ -136,6 +139,7 @@ main {
 .single-items {
   height: 250px;
   border: 3px solid gray;
+  transition: 0.4s;
 }
 
 .single-items img {
@@ -149,7 +153,7 @@ main {
   justify-content: space-between;
   color: white;
   margin-top: 0.6rem;
-  transition: 0.7s;
+
 }
 
 .single-items:hover {

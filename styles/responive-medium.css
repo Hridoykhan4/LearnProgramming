@@ -1,0 +1,34 @@
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav{
+        padding: 1rem;
+        flex-direction: column;
+    }
+    nav ul{
+        flex-wrap: wrap;
+        margin-top: 3rem;
+    }
+    .single-items-parent{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    main{
+        padding: 1rem;
+    }
+    .footer-container{
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+    footer{
+        padding: 1rem;
+    }
+    .footer-third-item{
+        display: flex;
+        flex-direction: column;
+    }.footer-third-item div {
+        font-size: 25px;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+      }
+}
